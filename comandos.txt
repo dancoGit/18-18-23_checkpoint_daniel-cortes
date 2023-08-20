@@ -1,0 +1,23 @@
+  195  mkdir 18-18-23_checkpoint_daniel-cortes
+  196  cd 18-18-23_checkpoint_daniel-cortes/
+  197  git init
+  198  git branch -M main
+  199  git remote add origin https://github.com/dancoGit/18-18-23_checkpoint_daniel-cortes.git
+  200  touch main.js index.html
+  201  git add .
+  202  git commit -m "commit 01 de Daniel Cortes"
+  203  git push origin main
+  204  git checkout -b feature
+  205  mkdir Hardware Software SeguridadInformatica
+  206  touch ./Hardware/resumen.txt ./Software/resumen.txt ./SeguridadInformatica/resumen.txt
+  207  git add .
+  208  git commit -m "commit 02 de Daniel Cortes"
+  209  git push origin feature
+  210  git checkout main
+  211  mv main.js resumenHardware.txt
+  212  mv index.html resumenSoftware.txt
+  213  vi resumenSoftware.txt
+  214  cat resumenSoftware.txt 
+  215  vi resumenHardware.txt
+  216  cat resumenHardware.txt 
+  217  history 25 > comandos.txt
